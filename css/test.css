@@ -1,0 +1,40 @@
+
+.kirmizi{
+    color: red;
+    text-align: right;
+    background-color: aquamarine;
+}
+
+.kutu{
+    width: 70%;
+    height: 50px;
+    background-color: blueviolet;
+    border: 10px solid rgb(255, 0, 234);
+    border-radius:20px ;
+    border-top-left-radius: 70px;
+    box-shadow: 5px 5px 3px red ;
+    text-shadow: 5px 5px 4px blueviolet;
+
+}
+
+.container {
+
+display: flex; /*kutuları flex duruma getırıyor*/
+flex-direction: row; /*satırda mı sutunda mı olacagını */
+justify-content: flex-end; /* satırdakı yayılımını ayarlıyor, dikeyde calısıyor*/
+align-items: stretch; /*yukseklıge kendını tam dolduruyor dikeyde calısıyor* /
+background-color: pink;
+height: 500px;
+}
+/*display: flex elemanları yanyana koyar default degerı row column olursa altalta koyar*/
+
+/*margin dıs bosluk */
+/*padding ic bosluk*/
+
+.container div{
+    width: 200px;
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 20px; 
+
+}
